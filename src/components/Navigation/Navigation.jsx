@@ -5,8 +5,8 @@ const Navigation = ({ setOpenNav, openNAv }) => {
 
   return (
     <div onClick={() => setOpenNav(false)} className={`navigation ${openNAv ? 'navigation_open' : ''}`}>
-      <div onClick={(e) => e.stopPropagation()} className="navigation__conteiner">
-        <img onClick={()=>setOpenNav(false)} className="navigation__close" src={closeImg} alt="Закрыть" />
+      <div onClick={(e) => e.stopPropagation()} className={`navigation__conteiner `}>
+        <img onClick={() => setOpenNav(false)} className="navigation__close" src={closeImg} alt="Закрыть" />
         <nav className="navigation__nav">
           <NavLink className={`navigation__link `} to='/'>Главная</NavLink>
           <NavLink className={`navigation__link `} to='/movies'>Фильмы</NavLink>

@@ -36,6 +36,7 @@
 .card__like {
   cursor: pointer;
   background-image: url('../../images/heartBlack.svg');
+  background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
   border: none;
@@ -45,6 +46,11 @@
 
 .card__like_on {
   background-image: url('../../images/like.svg');
+}
+
+.card__like_on:hover{
+  background-image: url('../../images/close.svg');
+  background-color: white;
 }
 
 .card__time {

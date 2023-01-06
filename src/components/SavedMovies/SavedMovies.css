@@ -5,7 +5,7 @@
 
 .savedMovies__container {
   padding-top: 70px;
-  padding-bottom: 100px;
+  padding-bottom: 94px;
   max-width: calc(100% - 140px);
   margin: auto;
   display: flex;
@@ -14,14 +14,24 @@
   column-gap: 20px;
 }
 
-@media screen and (max-width:1279px) {
+@media screen and (max-width:768px) {
   .savedMovies__container {
-    justify-content: center;
+    max-width: calc(100% - 59px);
+    padding-top: 89px;
+    padding-bottom: 244px;
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:756px) {
   .savedMovies__container {
-    max-width: calc(100% - 28px);
+justify-content: center;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .savedMovies__container {
+    padding-top: 54px;
+    max-width: calc(100% - 20px);
+    padding-bottom: 251px;
   }
 }
