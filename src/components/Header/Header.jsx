@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Link, NavLink } from "react-router-dom";
 import headerLogo from '../../images/headerLogo.svg';
 import burger from '../../images/burger.svg';

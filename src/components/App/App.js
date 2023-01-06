@@ -14,7 +14,7 @@ function App() {
   const [isLogin, setIsLogin] = useState(true)
   const [openNAv, setOpenNav] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [moreFilm, setMoreFilm] = useState(8);
+  const [moreFilm, setMoreFilm] = useState(12);
   const films = [
     { name: 'Фильм', link: 'https://assets.gq.ru/photos/5d9f60b7ae00fb00090c29b0/master/w_1600%2Cc_limit/01.jpg', like: false, id: '1', time: '1ч42м' },
     { name: 'Фильм', link: 'https://assets.gq.ru/photos/5d9f60b7ae00fb00090c29b0/master/w_1600%2Cc_limit/01.jpg', like: true, id: '2', time: '1ч42м' },
@@ -38,6 +38,10 @@ function App() {
     { name: 'Фильм', link: 'https://assets.gq.ru/photos/5d9f60b7ae00fb00090c29b0/master/w_1600%2Cc_limit/01.jpg', like: true, id: '20', time: '1ч42м' },
     { name: 'Фильм', link: 'https://assets.gq.ru/photos/5d9f60b7ae00fb00090c29b0/master/w_1600%2Cc_limit/01.jpg', like: true, id: '21', time: '1ч42м' },
     { name: 'Фильм', link: 'https://assets.gq.ru/photos/5d9f60b7ae00fb00090c29b0/master/w_1600%2Cc_limit/01.jpg', like: false, id: '22', time: '1ч42м' },
+    { name: 'Фильм', link: 'https://assets.gq.ru/photos/5d9f60b7ae00fb00090c29b0/master/w_1600%2Cc_limit/01.jpg', like: false, id: '23', time: '1ч42м' },
+    { name: 'Фильм', link: 'https://assets.gq.ru/photos/5d9f60b7ae00fb00090c29b0/master/w_1600%2Cc_limit/01.jpg', like: false, id: '24', time: '1ч42м' },
+    { name: 'Фильм', link: 'https://assets.gq.ru/photos/5d9f60b7ae00fb00090c29b0/master/w_1600%2Cc_limit/01.jpg', like: false, id: '25', time: '1ч42м' },
+    { name: 'Фильм', link: 'https://assets.gq.ru/photos/5d9f60b7ae00fb00090c29b0/master/w_1600%2Cc_limit/01.jpg', like: false, id: '26', time: '1ч42м' },
   ];
 
   useEffect(() => {

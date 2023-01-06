@@ -69,7 +69,7 @@
 
 @media screen and (max-width:768px) {
   .footer__container {
-    max-width: calc(100% - 28px);
+    max-width: calc(100% - 63px);
   }
 
   .footer__text {
@@ -85,6 +85,10 @@
     justify-content: center;
   }
 
+  .footer__container {
+    max-width: calc(100% - 40px);
+  }
+
   .footer__date {
     order: 2;
   }
@@ -94,11 +98,17 @@
     justify-content: center;
     align-items: center;
   }
-  .footer__link{
+
+  .footer__link {
     margin-right: 0;
     margin-bottom: 12px;
   }
-  .footer__link:last-child{
+
+  .footer__link:last-child {
     margin-bottom: 30px;
+  }
+
+  .footer__text {
+    margin-bottom: 31px;
   }
 }

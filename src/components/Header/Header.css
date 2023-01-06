@@ -28,12 +28,12 @@
 }
 
 .header__signup {
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .header__link {
   color: #FFFFFF;
-  padding: 20px 8px 20px 8px;
+  padding: 10px 20px 8px 18px;
   border-radius: 3px;
   text-decoration: none;
   font-style: normal;
@@ -55,7 +55,7 @@
   line-height: 18px;
   text-align: right;
   color: #000000;
-  margin-right: 20px;
+  margin-right: 12px;
   text-decoration: none;
 }
 
@@ -108,7 +108,7 @@
   }
 
   .header__link {
-    padding: 10px 4px 10px 4px;
+    padding: 10px 20px 8px 20px;
   }
 }
 
@@ -119,5 +119,15 @@
 
   .header__signup {
     margin-right: 14px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .header__link {
+    padding: 7px 8px 5px 9px;
+  }
+
+  .header__signup {
+    margin-right: 6px;
   }
 }

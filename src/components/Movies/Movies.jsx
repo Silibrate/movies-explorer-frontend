@@ -15,7 +15,7 @@ const Movies = ({ films, loading, setMoreFilm, moreFilm }) => {
                 return <MoviesCard key={card.id} card={card} />
               })}
             </div>
-            {films.length < moreFilm ? '' : < button className="movies__more" onClick={() => { setMoreFilm(moreFilm + 8) }} type="button">Еще</button>}
+            {films.length < moreFilm ? '' : < button className="movies__more" onClick={() => { setMoreFilm(moreFilm + 3) }} type="button">Еще</button>}
           </>
         }
         {/*  <div className="movies__container">

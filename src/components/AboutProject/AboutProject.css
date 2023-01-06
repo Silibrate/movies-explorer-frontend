@@ -3,7 +3,7 @@
   max-width: 1280px;
   margin: auto;
   padding-top: 110px;
-  padding-bottom: 141px;
+  padding-bottom: 84px;
 }
 
 .aboutProject__container {
@@ -72,7 +72,7 @@
 
 .aboutProject__week {
   position: relative;
-  width: 17%;
+  width: 21%;
   padding: 9px 0 9px 0;
   background: #2BE080;
   font-style: normal;
@@ -142,6 +142,10 @@
   .aboutProject {
     padding-bottom: 121px;
     padding-top: 90px;
+  }
+
+  .aboutProject__terms {
+    margin-top: 90px;
   }
 }
 
@@ -213,5 +217,11 @@
 
   .aboutProject__week::after {
     left: 15%;
+  }
+}
+
+@media screen and (max-width:320px){
+  .aboutProject__content{
+    margin-top: 63px;
   }
 }

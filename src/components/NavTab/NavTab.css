@@ -1,4 +1,4 @@
-.NavTab{
+.NavTab {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,20 +7,31 @@
   margin: auto;
   background: #000000;
 }
-.NavTab__content{
+
+.NavTab__content {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
-.NavTab__link{
+
+.NavTab__link {
   color: white;
   margin-right: 40px;
 }
-.NavTab__link:last-child{
+
+.NavTab__link:last-child {
   margin-right: 0;
 }
 
-.NavTab__link:hover{
+.NavTab__link:hover {
   color: rgb(25, 172, 113);
+}
+
+@media screen and (max-width:320px) {
+  .NavTab__link {
+    font-size: 11px;
+    line-height: 16px;
+    margin-right: 33px;
+  }
 }

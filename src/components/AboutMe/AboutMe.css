@@ -60,7 +60,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  margin-bottom: 99px;
+  margin-bottom: 76px;
 }
 
 .aboutMe__link {
@@ -108,7 +108,7 @@
     font-size: 12px;
     line-height: 18px;
     max-width: 364px;
-    margin-bottom: 87px;
+    margin-bottom: 66px;
   }
 
   .aboutMe__img {
@@ -160,5 +160,21 @@
     font-size: 11px;
     line-height: 16px;
     margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .aboutMe {
+    padding-top: 46px;
+  }
+
+  .aboutMe__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 28px;
+  }
+
+  .aboutMe__title {
+    margin-bottom: 14px;
   }
 }

@@ -5,7 +5,7 @@
 
 .movies__container {
   padding-top: 70px;
-  padding-bottom: 50px;
+  padding-bottom: 73px;
   max-width: calc(100% - 140px);
   margin: auto;
   display: flex;
@@ -17,16 +17,16 @@
 .movies__more {
   display: flex;
   justify-content: center;
-  max-width: calc(100% - 140px);
   align-self: center;
   margin: auto;
   padding: 12px 0 12px 0;
   border: none;
-  width: 100%;
+  width: 25%;
   background: #F9F9F9;
+  border: 1px solid #424242;
   border-radius: 6px;
   transition: all .3s linear;
-  margin-bottom: 80px;
+  margin-bottom: 146px;
   cursor: pointer;
 }
 
@@ -43,9 +43,21 @@
 @media screen and (max-width:768px) {
   .movies__container {
     max-width: calc(100% - 28px);
+    padding-top: 90px;
   }
 
   .movies__more {
-    max-width: calc(100% - 28px);
+    width: 42%;
+    margin-bottom: 153px;
+  }
+}
+
+@media screen and (max-width:406px) {
+  .movies__container {
+    padding-top: 59px;
+  }
+
+  .movies__more {
+    width: 72%;
   }
 }
